@@ -1,6 +1,8 @@
 #######  Complete Pipeline workflow. Run each command sequentially, except when indicated otherwise.  #######
 
 ## Setup: Run the installation commands in the installs file to set up the environments (sraenv and qiime) and install needed programs
+# The Qiime2 commands are primarily adapted from the Moving Pictures Tutorial (https://docs.qiime2.org/2024.10/tutorials/moving-pictures/)
+# and Plugin Workflow overview (https://docs.qiime2.org/2024.5/tutorials/overview/).
 # Make a directory for the analysis.
 mkdir metagenome_dir
 
@@ -356,7 +358,7 @@ cd ancombc
   --o-visualization da-barplot-group-l2.qzv
   
   
-### STEP 17: Picrust2 Qiime2 plugin workflow
+### STEP 17: Picrust2 Qiime2 plugin workflow. Commands adapted primarly from https://github.com/picrust/picrust2/wiki/q2-picrust2-Tutorial
 
 # Recommend using the rarefied table from core metrics and the rep-seqs file from OTU clustering outputs,
 # though it is optional and the non-rarefied table (table-cr-99.qza
