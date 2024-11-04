@@ -1,6 +1,6 @@
 # Group5-BIOT670I
 Repository for capstone project.
-Group 5 members are Holly Winbigler, Teresat Acevedo, and Alex Mattei.
+Group 5 members are Holly Winbigler, Teresa Acevedo, and Alex Mattei.
 
 This project aims to profile the functional capabilities of gut microbiomes in IBD patients and healthy controls using metagenomic data.
 
